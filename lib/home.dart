@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
           width: 20,
           height: 20,
           child: Image.network(
-              "https://raw.githubusercontent.com/trustwallet/assets/f3ffd0b9ae2165336279ce2f8db1981a55ce30f8/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"))
+              "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=023"))
     },
     {
       "label": "USDT",
@@ -58,8 +58,8 @@ class _HomeState extends State<Home> {
           key: UniqueKey(),
           width: 20,
           height: 20,
-          child:
-              Image.network("https://img.icons8.com/color/512/tether--v2.png"))
+          child: Image.network(
+              "https://cryptologos.cc/logos/tether-usdt-logo.png?v=023"))
     },
     {
       "label": "SRM",
@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
           width: 20,
           height: 20,
           child: Image.network(
-              "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/assets/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png"))
+              "https://cryptologos.cc/logos/serum-srm-logo.png?v=023"))
     },
     {
       "label": "BTC",
@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
           width: 20,
           height: 20,
           child: Image.network(
-              "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/assets/9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E/logo.png"))
+              "https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023"))
     },
     {
       "label": "ETH",
@@ -98,7 +98,7 @@ class _HomeState extends State<Home> {
           width: 20,
           height: 20,
           child: Image.network(
-              "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/assets/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk/logo.png"))
+              "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023"))
     },
   ];
   late Map<String, dynamic> price;

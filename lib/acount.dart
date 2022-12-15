@@ -239,40 +239,40 @@ class _AccountState extends State<Account> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      TextButton(
-                        onPressed: () async {
-                          if (await widget.phantom.airDrop()) {
-                            QuickAlert.show(
-                              context: context,
-                              type: QuickAlertType.success,
-                              titleColor: Colors.white,
-                              text: 'Successfully airdroped 1 SOL!',
-                              textColor: Colors.white,
-                              backgroundColor:
-                                  const Color.fromARGB(255, 68, 90, 117),
-                              confirmBtnColor: Colors.blue,
-                            );
-                            // print("aridroped");
-                          } else {
-                            Alert(message: "Failed to Airdrop");
-                          }
-                        },
-                        child: Container(
-                          padding: const EdgeInsets.all(20),
-                          decoration: BoxDecoration(
-                            color: const Color.fromARGB(255, 23, 42, 66),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          child: const Text(
-                            "AirDrop",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              letterSpacing: 0.5,
-                            ),
-                          ),
-                        ),
-                      ),
+                      // TextButton(
+                      //   onPressed: () async {
+                      //     if (await widget.phantom.airDrop()) {
+                      //       QuickAlert.show(
+                      //         context: context,
+                      //         type: QuickAlertType.success,
+                      //         titleColor: Colors.white,
+                      //         text: 'Successfully airdroped 1 SOL!',
+                      //         textColor: Colors.white,
+                      //         backgroundColor:
+                      //             const Color.fromARGB(255, 68, 90, 117),
+                      //         confirmBtnColor: Colors.blue,
+                      //       );
+                      //       // print("aridroped");
+                      //     } else {
+                      //       Alert(message: "Failed to Airdrop");
+                      //     }
+                      //   },
+                      //   child: Container(
+                      //     padding: const EdgeInsets.all(20),
+                      //     decoration: BoxDecoration(
+                      //       color: const Color.fromARGB(255, 23, 42, 66),
+                      //       borderRadius: BorderRadius.circular(20),
+                      //     ),
+                      //     child: const Text(
+                      //       "AirDrop",
+                      //       style: TextStyle(
+                      //         color: Colors.white,
+                      //         fontSize: 16,
+                      //         letterSpacing: 0.5,
+                      //       ),
+                      //     ),
+                      //   ),
+                      // ),
                       TextButton(
                         onPressed: () {
                           widget.phantom.disconnect();
